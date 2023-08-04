@@ -1,0 +1,314 @@
+@import url(font/stylesheet.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Muller";
+}
+header {
+  background-color: #141414;
+  color: white;
+}
+header .container {
+  height: 104px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-size: 16px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  opacity: 0.6;
+}
+header input {
+  background: #292a2e;
+  padding: 12px 17px;
+  width: 218px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  outline: none;
+}
+.search {
+  position: relative;
+  height: 38px;
+}
+.search::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  background-image: url(Search.svg);
+  background-size: cover;
+  right: 20px;
+  top: 10px;
+}
+header button {
+  padding: 9px 18px;
+  border-radius: 20px;
+  background: #292a2e;
+  border: none;
+}
+.mobile {
+  display: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.filter p {
+  margin: 30px 0;
+}
+
+.chek {
+  display: inline-block;
+  margin: 10px;
+}
+
+.ramka {
+  width: 278px;
+  height: 386px;
+  margin-top: 100px;
+  background: #f6f6f6;
+  border-radius: 20px;
+  text-align: center;
+}
+.ramka img {
+  position: relative;
+  top: -70px;
+  text-align: center;
+}
+
+.ramka h3 {
+  color: #000;
+  font-family: Muller;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 91%;
+  margin-top: -20px;
+}
+.ramka p {
+  color: #000;
+  font-family: Muller;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 91%;
+  margin: 18px;
+}
+
+.ramka span {
+  padding: 7px 10px;
+  border-radius: 20px;
+  display: block;
+}
+.yes {
+  background: #00f;
+  width: fit-content;
+  margin: auto;
+  color: white;
+}
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer {
+  background-color: #141414;
+  color: white;
+}
+footer .container {
+  height: 370px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  margin-top: 130px;
+}
+/* footer {
+  width: 1440px;
+  height: 370px;
+  background-color: #141414;
+  margin: 0 auto;
+  font-family: "muller";
+  margin-top: 130px;
+} */
+.logo1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 93px;
+  height: 32px;
+}
+.logo1 h1 {
+  font-size: 32px;
+  padding-top: 50px;
+  color: #fff;
+}
+.number h2 {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 300;
+  width: 289px;
+  height: 38px;
+  padding-top: 50px;
+  margin: 0 auto;
+  margin-left: 825px;
+}
+.number p {
+  color: #ffffff;
+  margin: 0 auto;
+  font-weight: 300;
+  color: #787878;
+  margin-top: 40px;
+  margin-left: 988px;
+  width: 130px;
+}
+.futimg {
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+  padding-top: 130px;
+  margin-left: 1040px;
+}
+.number {
+  width: 289px;
+  height: 38px;
+}
+.boxing1 {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  max-width: 600px;
+  margin-top: -90px;
+}
+.boxing {
+  width: 90px;
+  height: 124px;
+}
+p9 {
+  color: #6d6d6d;
+  font-size: 14px;
+  width: 78px;
+  height: 11px;
+  font-weight: 200;
+  line-height: 20px;
+}
+.boxing3 p9 {
+  line-height: 40px;
+}
+h6 {
+  font-weight: 400;
+  color: #cbcbcb;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 115px;
+}
+.boxing3 {
+  width: 350px;
+  height: 127px;
+  margin-left: 800px;
+  margin-top: -100px;
+}
+h7 {
+  font-weight: 400;
+  color: #cbcbcb;
+  font-size: 18px;
+}
+.boxing3 p {
+  color: #6d6d6d;
+  font-weight: 200;
+  font-size: 14px;
+}
+.boxing3 h6 {
+  margin-top: 95px;
+}
+.kurs {
+  margin-left: 545px;
+  margin-top: 20px;
+}
+
+@media (max-width: 380px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  header button {
+    background-color: transparent;
+  }
+  .container {
+    padding: 0 30px;
+  }
+  .ramka {
+    width: 49%;
+    padding: 17px;
+    height: 320px;
+    margin: 10px 0;
+  }
+  .ramka img {
+    width: 80%;
+    position: static;
+    margin-bottom: 35px;
+  }
+  .ramka h3 {
+    font-size: 16px;
+  }
+  .ramka p {
+    font-size: 14px;
+  }
+  .kurs {
+    width: 150px;
+    height: 0;
+    margin-left: 76px;
+  }
+  .logo1 {
+    display: block;
+  }
+  .boxing1 {
+    display: block;
+    margin-top: -80px;
+  }
+  footer .container {
+    height: 870px;
+  }
+  .number h2 {
+    display: block;
+    width: 181px;
+    height: 43px;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 715px;
+  }
+  h6 {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+  .number p {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .futimg {
+    display: block;
+    width: 60px;
+    padding-top: 0px;
+    margin-left: 260px;
+  }
+  .boxing3 {
+    display: none;
+  }
+}
